@@ -2,8 +2,8 @@
 
 # Função para mostrar a mensagem de uso
 show_usage() {
-    echo -e     "Uso: \n\n      curl -sSL https://github.com/tekvosoft-chat/ticketz-docker-acme/edit/main/setup.sh | sudo bash -s [-b <branchname>] <frontend_host> <email>\n\n"
-    echo -e "Exemplo: \n\n      curl -sSL https://github.com/tekvosoft-chat/ticketz-docker-acme/edit/main/setup.sh | sudo bash -s ticketz.exemplo.com.br email@exemplo.com.br\n\n"
+    echo -e     "Uso: \n\n      https://raw.githubusercontent.com/tekvosoft-chat/ticketz-docker-acme/refs/heads/main/setup.sh | sudo bash -s [-b <branchname>] <frontend_host> <email>\n\n"
+    echo -e "Exemplo: \n\n      https://raw.githubusercontent.com/tekvosoft-chat/ticketz-docker-acme/refs/heads/main/setup.sh | sudo bash -s ticketz.exemplo.com.br email@exemplo.com.br\n\n"
 }
 
 # Função para mensagem em vermelho
