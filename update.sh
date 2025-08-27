@@ -2,8 +2,8 @@
 
 # Função para mostrar a mensagem de uso
 show_usage() {
-    echo -e     "Uso: \n\n      curl -sSL https://update.ticke.tz | sudo bash\n\n"
-    echo -e "Exemplo: \n\n      curl -sSL https://update.ticke.tz | sudo bash\n\n"
+    echo -e     "Uso: \n\n      https://raw.githubusercontent.com/tekvosoft-chat/ticketz-docker-acme/refs/heads/main/update.sh | sudo bash\n\n"
+    echo -e "Exemplo: \n\n      https://raw.githubusercontent.com/tekvosoft-chat/ticketz-docker-acme/refs/heads/main/update.sh | sudo bash\n\n"
 }
 
 # Função para sair com erro
